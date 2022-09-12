@@ -1,14 +1,21 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+
+
+
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
+    box-sizing:content-box;
 }
 
 /*Header*/
 
 header{
     width: 100%;
-    height: 600px;
+    height: 400px;
     /*Colores sacados de la pagina uigradients */
     background: #CAC531; 
      /* fallback for old browsers */
@@ -19,20 +26,423 @@ header{
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    
+       
 }
+
+
 /*centrar a la izquierda el texto subrayado*/
 nav{
     text-align: right;
     padding: 30px 50px 0 0;
 
-}
+    }
 /*caracteristicas de los vinculos inicio informacion*/
-nav a{
-    color: #fff;
+nav> a{
+    color: rgb(250, 227, 18);
+    /*lo hace mas ligera*/
+    font-weight: 500;
+    text-decoration:none;
+    /*separacion de un vinculo al otro*/
+    margin-right: 10px;
+/*efecto al maus para cuando pase por los vinculos se subrayan*/    
+}
+nav> a:hover{
+    text-decoration:none;
+}
+
+/*Atributos dee pocicion del texto enersol y su leyenda*/
+header .textos-header{
+    display: flex;
+    height: 10px;
+    width: 100%;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+
+/*llamamos la clase wave o que se llama ola para pocicionarla en la parte inferior de la imagen en la pagina*/
+}
+.textos-header h1 {
+    font-size: 50px;
+    color: #CAC531;
+}
+.textos-header h2 {
+    font-size: 20px;
+    color: #CAC531;
+}
+.wave
+/*Posicion de la ola o wave en base a otro elemento o sea la imagen de fondo utilizando posicion absoluta*/    
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.wave-1
+/*Posicion de la ola o wave en base a otro elemento o sea la imagen de fondo utilizando posicion absoluta*/    
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top: 0;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*Header*/
+
+
+
+/*centrar a la izquierda el texto subrayado*/
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+
+    }
+/*caracteristicas de los vinculos inicio informacion*/
+nav> a{
+    color: rgb(250, 227, 18);
     /*lo hace mas ligera*/
     font-weight: 500;
     /*quitar el subrallado de la parte de abajo*/
     text-decoration: none;
     /*separacion de un vinculo al otro*/
-    margin-right: 20px;
+    margin-right: 50px;
+/*efecto al maus para cuando pase por los vinculos se subrayan*/    
 }
+nav> a:hover{
+    text-decoration: underline;
+}
+
+/*Atributos dee pocicion del texto enersol y su leyenda*/
+
+.textos-header h1 {
+    font-size: 50px;
+    color: #CAC531;
+}
+.textos-header h2 {
+    font-size: 20px;
+    color: #CAC531;
+}
+
+body{
+
+
+
+    margin: 0;
+    margin-bottom: 60px;
+
+
+  
+    font-family: sans-serif;
+    background-image: url('../IMAGEN/montaña.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+
+  
+    min-height: 100vh ;
+
+}
+ 
+.card {
+    text-align: center;
+    color:rgb(235, 239, 243)  
+}
+/*Encuadre de todo el contenido del baner*/
+/*llamamos a la clase contenedor*/  
+.contened{
+      
+     /*margen a la izquierda*/  
+    margin: -10px  30px;;
+    /*Anchura*/  
+    width: 300px;
+     /*Distribucion del texto para que no se salga del margen del cuadrado*/  
+    padding: 2rem;
+    /*color de fondo del contenedor o baner*/  
+    background: linear-gradient(#3e4241cf, #85847b8d);
+    border: 10px solid #d5d21d1f;
+    border-radius: 10px;
+    
+ }
+/*---------------------------------------------------------------------------------------------------------*/ 
+ 
+.message{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color:rgb(136, 185, 57) 
+}  
+.card1{
+    text-align: center;
+}
+
+.contenido{
+    margin: -440px  500px;
+    /*Anchura*/  
+    width: 300px;
+     /*Distribucion del texto para que no se salga del margen del cuadrado*/  
+    padding: 2rem;
+    /*color de fondo del contenedor o baner*/  
+    background: linear-gradient(#3e4241cf, #85847b8d);
+    /* color:rgb(235, 239, 243)*/
+    
+  /*---------------------------------------------------------------------------------------------------------*/
+}
+
+.btn-neon1{
+
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color:  rgb(19, 226, 47);
+    letter-spacing: 4px;
+    font-size:  15px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2;
+    border-radius: 30px;
+
+}
+
+.btn-neon1:hover{
+
+    background: #cef107;
+    box-shadow: 0 0 10px #cef107, 0 0 20px
+    #cef107, 0 0 60px #cef107;
+    transition-delay: 0.5s;
+    
+}
+ 
+.btn-neon1 span{
+    position: absolute;
+    display: block;
+
+}
+
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #cef107);
+
+}   
+   
+.btn-neon1:hover #span1{
+
+   left: 100%;
+   transition: 1s;
+}
+
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #cef107);
+    
+    }   
+       
+.btn-neon1:hover #span3{
+    
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+    }
+
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #cef107);
+        
+}   
+           
+.btn-neon1:hover #span2{
+        
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+    
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #cef107);
+        
+}   
+           
+.btn-neon1:hover #span4{
+        
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+    /*---------------------------------------------------------------------------------------------------------*/
+.card2{
+      
+    text-align: center;
+}
+    
+.contenido2{
+    margin: 155px 0  0 57rem;
+        /*Anchura*/  
+    width: 300px;
+         /*Distribucion del texto para que no se salga del margen del cuadrado*/  
+    padding: 10px;
+        /*color de fondo del contenedor o baner*/  
+    background: linear-gradient(#3e4241cf, #85847b8d);
+        /* color:rgb(235, 239, 243)*/
+        
+ /*---------------------------------------------------------------------------------------------------------*/
+}
+    
+.btn-neon{
+    
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color:  rgb(19, 226, 47);
+    letter-spacing: 4px;
+    font-size:  15px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2;
+    border-radius: 30px;
+}
+    
+.btn-neon:hover{
+    
+    background: #cef107;
+    box-shadow: 0 0 10px #cef107, 0 0 20px
+    #cef107, 0 0 60px #cef107;
+    transition-delay: 0.5s;
+    }
+     
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+    
+#span5{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #cef107);
+    
+    }   
+       
+.btn-neon:hover #span5{
+    
+    left: 100%;
+    transition: 1s;
+}
+    
+#span7{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #cef107);
+}   
+           
+.btn-neon:hover #span7{
+        
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+    
+#span6{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #cef107);
+            
+}   
+               
+.btn-neon:hover #span6{
+            
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+        
+#span8{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #cef107);
+}   
+              
+.btn-neon:hover #span8{
+            
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.iconos{
+    
+    color: rgb(19, 226, 47);
+    width:initial;
+    margin-bottom: 20PX;
+}
+ .iconos2{
+    color: rgb(19, 226, 47);
+    width:initial;
+    margin: 40PX  1em  0px  auto;
+
+ }
+
+P{
+    font-size: 17px;
+    color:rgb(255, 255, 255);
+    text-align:center; 
+    
+}
+
+ h2{
+    font-size: 20px;
+   margin: 20px;
+    text-align:center;
+    color: #cef107;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+footer {
+    background-color: rgb(25, 24, 24);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+ 
+
+    
+  }
+ .derechos{
+    display:flex;
+    justify-content: space-between;
+    padding: 0;
+    color:white
+ }
