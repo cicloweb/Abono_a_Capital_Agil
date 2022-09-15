@@ -39,16 +39,16 @@
          
          <div class="input-contenedor">
          <i class="fas fa-envelope icon"></i>
-         <input class="controls" type="text" placeholder="Correo Electronico">
+         <input class="controls" type="text" name="correo electronico" id="correo electronico" placeholder="Correo Electronico">
          
          </div>
          
          <div class="input-contenedor">
         <i class="fas fa-key icon"></i>
-         <input class="controls" type="password" placeholder="Contraseña">
+         <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
          
          </div>
-         <input type="submit" value="Login" class="button">
+         <input type="button" value="Login" class="button" id="boton" onclick="login()"> 
          <p>¿No tienes una cuenta? <a class="link" href="Registro.html">Crear una cuenta </a></p>
      </div>
     </form>
@@ -66,5 +66,7 @@
         </div>
     
     </footer>
+
+    <script src="JS/script.js"></script>
 </body>
 </html>

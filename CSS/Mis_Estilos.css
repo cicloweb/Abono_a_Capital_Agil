@@ -389,20 +389,7 @@ body{
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.25s;
-            }
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 .iconos{
     
     color: rgb(19, 226, 47);
@@ -429,9 +416,10 @@ P{
     text-align:center;
     color: #cef107;
 }
+
 /*---------------------------------------------------------------------------------------------------------*/
 footer {
-    background-color: rgb(25, 24, 24);
+    background-color: rgba(66, 62, 49, 0.916);
     position: absolute;
     bottom: 0;
     width: 100%;
