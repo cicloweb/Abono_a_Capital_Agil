@@ -1,0 +1,448 @@
+html {
+    min-altura :  100 % ;
+    posición : relativa;
+  }
+
+
+
+* {
+    margen : 0 ;
+    relleno : 0 ;
+    tamaño de caja : caja de contenido;
+}
+
+/*Encabezamiento*/
+
+encabezado {
+    ancho :  100 % ;
+    altura :  400 píxeles ;
+    /*Colores sacados de la pagina uigradients */
+    fondo :  # CAC531 ;
+     /* respaldo para navegadores antiguos */
+    fondo : -webkit- gradiente lineal (a la derecha ,  hsla ( 64 ,  58 % ,  45 % ,  0.164 ) ,  hsla ( 58 ,  61 % ,  49 % ,  0.151 )) , url(.. / IMAGEN/empresario-con- bombilla-su-mano.jpg);
+     /* Chrome 10-25, Safari 5.1-6 */
+    fondo :  gradiente lineal (a la derecha ,  hsla ( 64 ,  58 % ,  45 % ,  0.164 ) ,  hsla ( 58 ,  61 % ,  49 % ,  0.151 )) , url(.. / IMAGEN/empresario-con-bombilla -su-mano.jpg);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    tamaño de fondo : cubierta;
+    archivo adjunto de fondo : fijo;
+    posición : relativa;
+    
+       
+}
+
+
+/*centrar a la izquierda el texto subrayado*/
+navegación {
+    alineación de texto : derecha;
+    relleno :  30 px  50 px  0  0 ;
+
+    }
+/*caracteristicas de los vinculos inicio informacion*/
+navegación >  a {
+    color :  rgb ( 250 ,  227 ,  18 );
+    /*lo hace mas ligero*/
+    peso de fuente :  500 ;
+    decoración de texto : ninguno;
+    /*separacion de un vinculo al otro*/
+    margen derecho :  10 px ;
+/*efecto al maus para cuando pase por los vinculos se subrayan*/    
+}
+navegación >  a : flotar {
+    decoración de texto : ninguno;
+}
+
+/*Atributos dee pocicion del texto enersol y su leyenda*/
+encabezado _ encabezado de textos {
+    pantalla : flexible;
+    altura :  10 píxeles ;
+    ancho :  100 % ;
+    alinear elementos : centro;
+    justificar-contenido : centro;
+    dirección de flexión : columna;
+
+/*llamamos la clase wave o que se llama ola para pocicionarla en la parte inferior de la imagen en la pagina*/
+}
+. textos-header  h1 {
+    tamaño de fuente :  50 px ;
+    color :  # CAC531 ;
+}
+. textos-header  h2 {
+    tamaño de fuente :  20 px ;
+    color :  # CAC531 ;
+}
+. ola
+/*Posicion de la ola o wave en base a otro elemento o sea la imagen de fondo usando posicion absoluta*/    
+{
+    posición : absoluta;
+    inferior :  0 ;
+    ancho :  100 % ;
+}
+
+. ola-1
+/*Posicion de la ola o wave en base a otro elemento o sea la imagen de fondo usando posicion absoluta*/    
+{
+    posición : absoluta;
+    inferior :  0 ;
+    ancho :  100 % ;
+    superior :  0 ;
+}
+
+
+/*------------------------------------------------ -------------------------------------------------- -------*/
+
+
+
+
+/*Encabezamiento*/
+
+
+
+/*centrar a la izquierda el texto subrayado*/
+navegación {
+    alineación de texto : derecha;
+    relleno :  30 px  50 px  0  0 ;
+
+    }
+/*caracteristicas de los vinculos inicio informacion*/
+navegación >  a {
+    color :  rgb ( 250 ,  227 ,  18 );
+    /*lo hace mas ligero*/
+    peso de fuente :  500 ;
+    /*quitar el subrallado de la parte de abajo*/
+    decoración de texto : ninguno;
+    /*separacion de un vinculo al otro*/
+    margen derecho :  50 px ;
+/*efecto al maus para cuando pase por los vinculos se subrayan*/    
+}
+navegación >  a : flotar {
+    decoración de texto : subrayado;
+}
+
+/*Atributos dee pocicion del texto enersol y su leyenda*/
+
+.textos-header  h1 {
+    tamaño de fuente :  50 px ;
+    color :  # CAC531 ;
+}
+.textos-header  h2 {
+    tamaño de fuente :  20 px ;
+    color :  # CAC531 ;
+}
+
+body {
+
+margin:  0;
+margin-bottom:  60 px ;
+font-family : sans-serif;
+background-image :  url ( '../IMAGEN/montaña.jpg' );
+background-size: cover;
+back: fijo;
+
+  
+    min-altura :  100 vh ;
+
+}
+ 
+.tarjeta {
+    alineación de texto : centro;
+    color : rgb ( 235 ,  239 ,  243 )  
+}
+/*Encuadre de todo el contenido del banner*/
+/*llamamos a la clase contenedor*/  
+.contenido {
+      
+     /*margen a la izquierda*/  
+    margen :  -10 px   30 px ;;
+    /*Anchura*/  
+    ancho : 300px;
+     /*Distribucion del texto para que no se salga del margen del cuadrado*/  
+    relleno : 2 rem;
+    /*color de fondo del contenedor o banner*/  
+    fondo :  gradiente lineal ( # 3e4241cf ,  # 85847b8d );
+    borde : 10px sólido  # d5d21d1f ;
+    borde-radio : 10px;
+    
+}
+/*------------------------------------------------ -------------------------------------------------- -------*/ 
+ 
+. mensaje {
+    tamaño de fuente :  1,5 rem ;
+    relleno :  1 rem  0 ;
+    color : rgb ( 136 ,  185 ,  57 )
+}  
+. tarjeta1 {
+    alineación de texto : centro;
+}
+
+. contenido {
+    margen :  -440 px   500 px ;
+    /*Anchura*/  
+    ancho :  300 píxeles ;
+     /*Distribucion del texto para que no se salga del margen del cuadrado*/  
+    relleno :  2 rem ;
+    /*color de fondo del contenedor o banner*/  
+    fondo :  gradiente lineal ( # 3e4241cf ,  # 85847b8d );
+    //color:rgb(235, 239, 243)*/
+    
+  /*------------------------------------------------ -------------------------------------------------- -------*/
+}
+
+. btn-neón1 {
+
+    posición : relativa;
+    pantalla : bloque en línea;
+    relleno :  15 px  30 px ;
+    color :   rgb ( 19 ,  226 ,  47 );
+    espaciado entre letras :  4 px ;
+    tamaño de fuente :   15 px ;
+    decoración de texto : ninguno;
+    desbordamiento : oculto;
+    transición :  0,2 ;
+    borde-radio :  30 px ;
+
+}
+
+. btn-neon1 : flotar {
+
+    fondo :  # cef107 ;
+    sombra de cuadro :  0  0  10 px  # cef107 ,  0  0  20 px
+    # cef107 ,  0  0  60 píxeles  # cef107 ;
+    retardo de transición :  0,5 s ;
+    
+}
+ 
+. btn-neon1  tramo {
+    posición : absoluta;
+    pantalla : bloque;
+
+}
+
+# span1 {
+    superior :  0 ;
+    izquierda :  -100 % ;
+    ancho :  100 % ;
+    altura :  2 píxeles ;
+    fondo :  gradiente lineal ( 90 grados , transparente ,  # cef107 );
+
+}   
+   
+. btn-neon1 : flotar  # span1 {
+
+   izquierda :  100 % ;
+   transición :  1 s ;
+}
+
+# span3 {
+    inferior :  0 ;
+    derecha :  -100 % ;
+    ancho :  100 % ;
+    altura :  2 píxeles ;
+    fondo :  gradiente lineal ( 270 grados , transparente ,  # cef107 );
+    
+    }   
+       
+. btn-neon1 : flotar  # span3 {
+    
+    derecha :  100 % ;
+    transición :  1 s ;
+    retardo de transición :  0,5 s ;
+    }
+
+# span2 {
+    superior :  -100 % ;
+    derecha :  0 ;
+    ancho :  2 píxeles ;
+    altura :  100 % ;
+    fondo :  gradiente lineal ( 180 grados , transparente ,  # cef107 );
+        
+}   
+           
+. btn-neon1 : flotar  # span2 {
+        
+    arriba :  100 % ;
+    transición :  1 s ;
+    retardo de transición :  0,25 s ;
+}
+    
+# span4 {
+    inferior :  -100 % ;
+    izquierda :  0 ;
+    ancho :  2 píxeles ;
+    altura :  100 % ;
+    fondo :  gradiente lineal ( 180 grados , transparente ,  # cef107 );
+        
+}   
+           
+. btn-neon1 : flotar  # span4 {
+        
+    abajo :  100 % ;
+    transición :  1 s ;
+    retardo de transición :  0,25 s ;
+}
+    /*------------------------------------------------ -------------------------------------------------- -------*/
+. tarjeta2 {
+      
+    alineación de texto : centro;
+}
+    
+. contenido2 {
+    margen :  155 px  0   0  57 rem ;
+        /*Anchura*/  
+    ancho :  300 píxeles ;
+         /*Distribucion del texto para que no se salga del margen del cuadrado*/  
+    relleno :  10 px ;
+        /*color de fondo del contenedor o banner*/  
+    fondo :  gradiente lineal ( # 3e4241cf ,  # 85847b8d );
+        //color:rgb(235, 239, 243)*/
+        
+ /*------------------------------------------------ -------------------------------------------------- -------*/
+}
+    
+. btn-neón {
+    
+    posición : relativa;
+    pantalla : bloque en línea;
+    relleno :  15 px  30 px ;
+    color :   rgb ( 19 ,  226 ,  47 );
+    espaciado entre letras :  4 px ;
+    tamaño de fuente :   15 px ;
+    decoración de texto : ninguno;
+    desbordamiento : oculto;
+    transición :  0,2 ;
+    borde-radio :  30 px ;
+}
+    
+. btn-neón : flotar {
+    
+    fondo :  # cef107 ;
+    sombra de cuadro :  0  0  10 px  # cef107 ,  0  0  20 px
+    # cef107 ,  0  0  60 píxeles  # cef107 ;
+    retardo de transición :  0,5 s ;
+    }
+     
+. btn-  lapso de neón {
+    posición : absoluta;
+    pantalla : bloque;
+}
+    
+# span5 {
+    superior :  0 ;
+    izquierda :  -100 % ;
+    ancho :  100 % ;
+    altura :  2 píxeles ;
+    fondo :  gradiente lineal ( 90 grados , transparente ,  # cef107 );
+    
+    }   
+       
+. btn-neón : flotar  # span5 {
+    
+    izquierda :  100 % ;
+    transición :  1 s ;
+}
+    
+# span7 {
+    inferior :  0 ;
+    derecha :  -100 % ;
+    ancho :  100 % ;
+    altura :  2 píxeles ;
+    fondo :  gradiente lineal ( 270 grados , transparente ,  # cef107 );
+}   
+           
+. btn-neón : flotar  # span7 {
+        
+    derecha :  100 % ;
+    transición :  1 s ;
+    retardo de transición :  0,5 s ;
+}
+    
+# span6 {
+    superior :  -100 % ;
+    derecha :  0 ;
+    ancho :  2 píxeles ;
+    altura :  100 % ;
+    fondo :  gradiente lineal ( 180 grados , transparente ,  # cef107 );
+            
+}   
+               
+. btn-neón : flotar  # span6 {
+            
+    arriba :  100 % ;
+    transición :  1 s ;
+    retardo de transición :  0,25 s ;
+}
+        
+# span8 {
+    inferior :  -100 % ;
+    izquierda :  0 ;
+    ancho :  2 píxeles ;
+    altura :  100 % ;
+    fondo :  gradiente lineal ( 180 grados , transparente ,  # cef107 );
+}   
+              
+. btn-neón : flotar  # span8 {
+            
+    abajo :  100 % ;
+    transición :  1 s ;
+    retardo de transición :  0,25 s ;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+. iconos {
+    
+    color :  rgb ( 19 ,  226 ,  47 );
+    ancho : inicial;
+    margen inferior :  20 PX ;
+}
+. iconos2 {
+    color :  rgb ( 19 ,  226 ,  47 );
+    ancho : inicial;
+    margen :  40 PX   1 em   0 px   automático;
+
+}
+
+PAGS {
+    tamaño de fuente :  17 px ;
+    color : rgb ( 255 ,  255 ,  255 );
+    alineación de texto : centro;
+    
+}
+
+ h2 {
+    tamaño de fuente :  20 px ;
+   margen :  20 px ;
+    alineación de texto : centro;
+    color :  # cef107 ;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+/*------------------------------------------------ -------------------------------------------------- -------*/
+pie de página {
+    color de fondo :  rgb ( 25 ,  24 ,  24 );
+    posición : absoluta;
+    inferior :  0 ;
+    ancho :  100 % ;
+    altura :  40 píxeles ;
+ 
+
+    
+  }
+. derechos {
+    pantalla : flexible;
+    justificar-contenido : espacio-entre;
+    relleno :  0 ;
+    color : blanco
+}
