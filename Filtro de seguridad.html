@@ -5,37 +5,130 @@
             <meta charset="UTF-8" />
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Filtro de seguridad</title>
             <title>Enersol</title>
-            <title>Registrarse</title>
             <link rel="shortcut icon" href="IMAGEN/favicon-logo-oro.png" type="image/x-icon">
-       
-         
+            <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
-	       
-            <script src="https://kit.fontawesome.com/1281701fed.js" crossorigin="anonymous"></script>
+	        <script src="https://kit.fontawesome.com/1281701fed.js" crossorigin="anonymous"></script>
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+          
+            <link rel="stylesheet" href="Filtroseguridad.css">
+            <link rel="stylesheet" href="CSS/Filtroseguridad.CSS">
+        
 
+ 
     </head>
     <header>
         <!-------------------------------------------------------------------------------------------------------->
                            <nav>
                                <a href="Pagina de inicio.html">Inicio</a>
                                <a href="#">Informacion</a>
-                                      
                             </nav>
                                
-                </header>
-        
+    </header>
+ 
+     
 
     <body>
 
-<p>
-    BIENVENIDO,
-</p>
+<h1>
+    Bienvenido  al filtro de seguridad
+</h1>
 
 
 
+<!-- Título de los campos de ingreso----------------------------------------------------------------------->            
+<form class="formulario">
+    <i class="fas fa-lock icon"></i>
+    <h3>Filtro de Seguridad</h3>
+    <div class="contenedor">
 
+<!----Número de crédito---------------------------------------------------------------------------------> 
 
+<h4>
+    <div class="input-contenedor">
+        <span>Número de crédito</span>
+        <input class="controls" type="text" name="Credito" id="Credito" placeholder="Crédito*">
+    </div>                                                                     
+</h4>
+ 
+<!---Tipo de Documento------------------------------------------------------------------------------------>           
+    <h4>
+        <div class="input-contenedor">
+            <span>Tipo de Documento</span>
+            <input class="controls" type="text" name="Tipo de documento" id="Tipo de documento"placeholder="Tipo documento*">
+        </div>                                                                     
+    </h4>
+ 
+<!-----Número de Documento-------------------------------------------------------------------------------->                 
+    <h4>
+        <div class="input-contenedor">
+            <span>Número de Documento</span>
+            <input class="controls" type="text"name="Numero documento" id="Numero documento" placeholder="Número documento*">
+        </div>                                                                     
+    </h4>
+
+<!------Fecha de Expedición--------------------------------------------------------------------------- 
+<h4>
+    <div class="input-contenedor">
+        <span>Fecha de expedición</span>
+        <input class="controls" type="date" placeholder="Fecha de expedición*">
+            </div>                                                                     
+</h4>
+-----------------------------------------------------------Este es el espacio para hacer la prueba-->
+<h4>
+    <div class="input-contenedor">
+        <span>Fecha de expedición</span>
+            <!------Fecha de Expedición-------<input class="controls" type="text" onfocus="(this.type ='date')" name="Fecha expedicion" id="Fecha expedicion" placeholder="Fecha expedición*">-->
+            <input class="controls" type="text"  name="Fecha expedicion" id="Fecha expedicion" placeholder="aaaa/mm/dd" 
+    </div>                                                                     
+</h4>
+
+<!--Otro ensayo
+<h4>
+    <div class="input-contenedor">
+        <span>Fecha de expedición</span>
+        <input class="controls" type="text" onfocus="(this.type ='date')" onblur="if(!this.value) this.type='text'" class="form.control">
+    </div>                                                                     
+</h4>
+-->
+
+<!--Este es el código en prueba-->
+
+<!---------------------------------------------------------------------------------------------------------->   
+    
+
+    <p>Todos los campos son obligatorios*.</p>  
+        
+        <input type="button" name="salir"  value="Salir" class="button"  id="botonnes" onclick="Salir()">
+        <input type="button" value="Continuar" class="button"  id="boton" onclick="Continuar()"> 
+                                                                                                                          
+                    
+<!--<p>¿Ya tienes una cuenta con nosotros?<a class="link" href="Login.html">Iniciar Sesion</a></p>------->
+           
+</div>
+             
+</form>
+
+<footer>
+   
+    <div class="derechos">
+           <p>copyright &copy;2022 Enersol </p>
+           <p>Todos los Derechos Reservados.</p>
+    
+    </div>
+    <script src="JS/script1.js"></script>
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
